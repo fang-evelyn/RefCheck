@@ -1,0 +1,24 @@
+{
+  "name": "refcheck-soccer-ai",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "homepage": "https://fang-evelyn.github.io/Refcheck-AI",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "4.7.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "vite": "6.3.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.1.12",
+    "gh-pages": "^6.3.0",
+    "tailwindcss": "4.1.12"
+  }
+}
